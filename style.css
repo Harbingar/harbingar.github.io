@@ -1,10 +1,12 @@
 body{
+    display: block;
     background-color: #FFF16E;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .link, a{
     display: flex;
     align-content: center;
@@ -16,8 +18,9 @@ a:hover{
 }
 h1{
     font-style: italic;
-    font-size: 60px;
+    font-size: 3.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 p{
     font-size: x-large;

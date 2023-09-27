@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main nav{
+    background-color: rgb(200, 200, 200);
+    height: 4%;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+main{
+    display: block;
+    width: 90%;
+    height: 95vh;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+.contenu{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+h1{
+    font-size: xx-large;
+}
+h1,h4,p{
+    text-align: center;
+}
+img{
+    max-width: 70%; /* Resize the image to be 30% smaller than the main container */
+    display: block; /* Remove any extra spacing or margins around the image */
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+nav article{
+    display: flex;
+}
+div{
+    margin-right: 5px;
+}
+.p-red{
+    width: 0.7em;
+    height: 0.7em;
+    background-color: red;
+    border-radius: 50%;
+}
+.p-orange{
+    width: 0.7em;
+    height: 0.7em;
+    background-color: orange;
+    border-radius: 50%;
+}
+.p-green{
+    width: 0.7em;
+    height: 0.7em;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
