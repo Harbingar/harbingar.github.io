@@ -17,7 +17,6 @@ section{
 aside{
     display: flex;
     background-color: aqua;
-    margin: 10px;
     width: 300px;
     flex-direction: column;
     align-items: center;
